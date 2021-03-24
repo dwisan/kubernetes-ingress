@@ -1,5 +1,5 @@
 CONTEXT =
-BUILD_IMAGE = nginx/nginx-ingress:1.11.0
+BUILD_IMAGE = nginx/nginx-ingress:edge
 PULL_POLICY = IfNotPresent
 DEPLOYMENT_TYPE = deployment
 IC_TYPE = nginx-ingress
