@@ -6,6 +6,21 @@ An automatically generated list of changes can be found on Github at: [1.11.0 Re
 
 A curated list of changes can be found in the [Releases](http://docs.nginx.com/nginx-ingress-controller/releases/) page on NGINX Documentation website.
 
+### 1.10.1
+
+CHANGES:
+* Update NGINX version to 1.19.8.
+* Add Kubernetes 1.20 support.
+* [1373](https://github.com/nginxinc/kubernetes-ingress/pull/1373), [1439](https://github.com/nginxinc/kubernetes-ingress/pull/1439), [1440](https://github.com/nginxinc/kubernetes-ingress/pull/1440): Fix various issues in the Makefile. In 1.10.0, a bug was introduced that prevented building Ingress Controller images on versions of make < 4.1.
+
+HELM CHART:
+* The version of the Helm chart is now 0.8.1.
+
+UPGRADE:
+* For NGINX, use the 1.10.1 image from our DockerHub: `nginx/nginx-ingress:1.10.1`, `nginx/nginx-ingress:1.10.1-alpine` or `nginx/nginx-ingress:1.10.1-ubi`
+* For NGINX Plus, please build your own image using the 1.10.1 source code.
+* For Helm, use version 0.8.1 of the chart.
+
 ### 1.10.0
 
 OVERVIEW:
